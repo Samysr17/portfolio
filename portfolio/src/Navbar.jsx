@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
-import {FaBars,FaTimes} from 'react-icons/fa'
+import {FaBars,FaTimes, FaLinkedin} from 'react-icons/fa'
 
 const Navbar = () => {
   const [nav,setnav]=useState('false')
@@ -29,6 +29,15 @@ const Navbar = () => {
         <li className="py-6 text-4xl">Profiles</li>
         <li className="py-6 text-4xl">Contact Me</li>
      </ul>
+     <div className="flex flex-col top-[35%] fixed">
+      <ul>
+        <li className="text-white flex w-full h-[160px] justify-between items-center bg-blue-400">LinkedIn<a href="/"><FaLinkedin size={30}/></a></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+
+     </div>
     </div>
   )
 }

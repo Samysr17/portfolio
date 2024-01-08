@@ -63,7 +63,7 @@ const Navbar = () => {
             <BsFillPersonLinesFill className='items-center mt-1 mr-2' size={30}/>
             </a>
           </li>
-          <li className="text-white w-[160px] h-[40px] bg-gradient-to-r from-blue-700 to-yellow-400  rounded-xl ml-[-110px] hover:ml-[10px] ease-in duration-700">
+          <li className="text-white w-[160px] h-[40px] bg-gradient-to-r from-red-900 to-yellow-400  rounded-xl ml-[-110px] hover:ml-[10px] ease-in duration-700">
           <a className="flex w-full justify-between items-center" href="/">
             <div className="ml-4 mt-1 items-center">Mail</div>
             <HiOutlineMail className='items-center mt-1 mr-2' size={30}/>

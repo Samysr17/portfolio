@@ -1,36 +1,30 @@
 import React from 'react'
-import { useState } from 'react'
-import {FaBars,FaTimes, FaLinkedin,FaGithub,FaTwitter,FaInstagram} from 'react-icons/fa'
+import { FaLinkedin,FaGithub,FaTwitter,FaInstagram} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
+import {Link} from 'react-scroll'
 
 const Navbar = () => {
-  const [nav,setnav]=useState('false')
-  const handleclick=()=>{
-    setnav(!nav);
-  }
+
   return (
-    <div className="h-[90px] fixed w-full flex justify-between items-center bg-[#0a192f] text-white">
-     <div className='text-2xl ml-4 text-blue-400'>Samrat</div>
+    <div>
+    <div className=" navbar h-[90px] fixed bg-black w-full flex justify-between items-center bg-transparent text-white">
+     <div className='name text-3xl ml-4 font-bold text-blue-400 hover:text-white ease-in duration-700'>Samrat</div>
      <div >
-      <ul className='hidden md:flex space-x-8 mr-4'>
-        <li>Home</li>
-        <li>Skills</li>
-        <li>Projects</li>
-        <li>Profiles</li>
-        <li>Contact Me</li>
+      <ul className='hidden md:flex space-x-8 mr-4 cursor-pointer'>
+     
+      <li className="hover:text-blue-400 hover:text-xl ease-in duration-700"> <Link  to="home" smooth={true}  >Home </Link></li> 
+    
+      <li  className="hover:text-blue-400 hover:text-xl ease-in duration-700" ><Link to="Profiles" smooth={true} >Profiles</Link></li>
+    
+        
+       
+        <li  className="hover:text-blue-400 hover:text-xl ease-in duration-700"><Link  to="Skills" smooth={true}  >Skills </Link></li>
+        <li  className="hover:text-blue-400 hover:text-xl ease-in duration-700"><Link  to="Projects" smooth={true}  >Projects </Link></li>
+        <li  className="hover:text-blue-400 hover:text-xl ease-in duration-700"><Link  to="contact" smooth={true}  >Contact Me </Link></li>
       </ul>
      </div>
-     <div className="md:hidden mr-4 z-10">
-      {nav?<FaBars size={20} onClick={handleclick}/>:<FaTimes size={20}  onClick={handleclick}/>}
-     </div>
-     <ul className={nav?"hidden":"absolute top-0 left-0 w-full h-screen bg-[#0a192f] text-white flex flex-col justify-center items-center"}>
-        <li className="py-6 text-4xl">Home</li>
-        <li className="py-6 text-4xl">Skills</li>
-        <li className="py-6 text-4xl">Projects</li>
-        <li className="py-6 text-4xl">Profiles</li>
-        <li className="py-6 text-4xl">Contact Me</li>
-     </ul>
+    
      <div className="md:flex flex-col top-[35%] left-0 fixed hidden ">
       <ul>
       <li className="text-white w-[160px] h-[40px] bg-black rounded-xl ml-[-110px] hover:ml-[10px] ease-in duration-700">
@@ -72,6 +66,7 @@ const Navbar = () => {
       </ul>
 
      </div>
+    </div>
     </div>
   )
 }

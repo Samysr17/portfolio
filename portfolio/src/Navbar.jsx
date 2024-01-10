@@ -28,25 +28,25 @@ const Navbar = () => {
      <div className="md:flex flex-col top-[35%] left-0 fixed hidden ">
       <ul>
       <li className="text-white w-[160px] h-[40px] bg-black rounded-xl ml-[-110px] hover:ml-[10px] ease-in duration-700">
-          <a className="flex w-full justify-between items-center" href="/">
+          <a className="flex w-full justify-between items-center" href="https://github.com/Samysr17">
             <div className="ml-4 mt-1 items-center">Github</div>
             <FaGithub className='items-center mt-1 mr-2' size={30}/>
             </a>
           </li>
         <li className="text-white w-[160px] h-[40px] bg-blue-700 rounded-xl ml-[-110px] hover:ml-[10px] ease-in duration-700">
-          <a className="flex w-full justify-between items-center" href="/">
+          <a className="flex w-full justify-between items-center" href="https://www.linkedin.com/in/samrat-roy-58a638229/">
             <div className="ml-4 mt-1 items-center">LinkedIn</div>
             <FaLinkedin className='items-center mt-1 mr-2' size={30}/>
             </a>
           </li>
           <li className="text-white w-[160px] h-[40px] bg-gradient-to-r from-[rgba(131,58,180,1)] to-[rgba(253,29,29,1)]  rounded-xl ml-[-110px] hover:ml-[10px] ease-in duration-700">
-          <a className="flex w-full justify-between items-center" href="/">
+          <a className="flex w-full justify-between items-center" href="https://www.instagram.com/not_samrat_18/">
             <div className="ml-4 mt-1 items-center">Instagram</div>
             <FaInstagram className='items-center mt-1 mr-2' size={30}/>
             </a>
           </li>
           <li className="text-white w-[160px] h-[40px] bg-blue-400 rounded-xl ml-[-110px] hover:ml-[10px] ease-in duration-700">
-          <a className="flex w-full justify-between items-center" href="/">
+          <a className="flex w-full justify-between items-center" href="https://twitter.com/SamratR02594473">
             <div className="ml-4 mt-1 items-center">Twitter</div>
             <FaTwitter className='items-center mt-1 mr-2' size={30}/>
             </a>
@@ -58,7 +58,7 @@ const Navbar = () => {
             </a>
           </li>
           <li className="text-white w-[160px] h-[40px] bg-gradient-to-r from-red-900 to-yellow-400  rounded-xl ml-[-110px] hover:ml-[10px] ease-in duration-700">
-          <a className="flex w-full justify-between items-center" href="/">
+          <a className="flex w-full justify-between items-center" href="https://mail.google.com/">
             <div className="ml-4 mt-1 items-center">Mail</div>
             <HiOutlineMail className='items-center mt-1 mr-2' size={30}/>
             </a>

@@ -16,9 +16,9 @@ const Projects = () => {
         <div  className="grid sm:grid-cols-2  mt-8 md:grid-cols-3 gap-8 cursor-pointer">
             <div className="">
               <Flip>
-            <p className="flex text-xl hover:text-red-700 ease-in duration-700  justify-center font-bold items-center">TrailerFlix</p>
+              <a href='https://trailerflixsam.netlify.app/'><p className="flex text-xl hover:text-red-700 ease-in duration-700  justify-center font-bold items-center">TrailerFlix</p></a>
               <img className=" hover:scale-110 ease-in duration-700 hover:opacity-35 mt-4" src={netflix} alt="/"/>
-                <a href="/">
+                <a href="https://github.com/Samysr17/Trailerflix">
                 <Fade left><button className=" w-full border-2 rounded-md shadow-xl items-center shadow-red-700 flex justify-center border-white text-white mt-4 hover:bg-red-700 ease-in duration-700 hover:border-red-700 px-6 py-3 ">Visit Repository</button></Fade>
                 </a>
                 </Flip>
@@ -28,7 +28,7 @@ const Projects = () => {
             <Flip>
             <p className="flex text-xl hover:text-black ease-in duration-700  justify-center font-bold items-center">Tesla E-commerce</p>
               <img className=" hover:scale-110 ease-in duration-700 hover:opacity-35 mt-4" src={tesla} alt="/"/>
-                <a href="/">
+                <a href="https://github.com/Samysr17/Tesla_full_stack_clone">
                 <Fade left><button className=" w-full border-2 rounded-md shadow-xl items-center shadow-black flex justify-center border-white text-white mt-4 hover:bg-black ease-in duration-700 hover:border-black px-6 py-3 ">Visit Repository</button></Fade>
                 </a>
 
@@ -47,18 +47,18 @@ const Projects = () => {
            
             <div className="">
             <Flip>
-            <p className="flex text-xl hover:text-purple-700 ease-in duration-700  justify-center font-bold items-center">Homeo</p>
+            <p className="flex text-xl hover:text-purple-700 ease-in duration-700  justify-center font-bold items-center"><a href="https://homeo-react.netlify.app/">Homeo</a></p>
               <img className=" hover:scale-110 ease-in duration-700 hover:opacity-35 mt-4" src={homeo} alt="/"/>
-                <a href="/">
-                <Fade left><button className=" w-full border-2 rounded-md shadow-xl items-center shadow-purple-700 flex justify-center border-white text-white mt-4 hover:bg-purple-700 ease-in duration-700 hover:purple-700 px-6 py-3 ">Visit Repository</button></Fade>
+                <a href="https://github.com/sahilhedau49/homeo-react">
+                <Fade left><button className=" w-full border-2 rounded-md shadow-xl items-center shadow-purple-700 flex justify-center border-white text-white mt-4 hover:bg-purple-700 hover:border-purple-700 ease-in duration-700 hover:purple-700 px-6 py-3 ">Visit Repository</button></Fade>
                 </a>
                 </Flip>
             </div>
             <div className="">
             <Flip>
-            <p className="flex text-xl hover:text-yellow-400 ease-in duration-700  justify-center font-bold items-center">F1 Analysis</p>
+            <p className="flex text-xl hover:text-yellow-400 ease-in duration-700  justify-center font-bold items-center"><a href="https://samy-formula1.streamlit.app/">F1 Analysis</a></p>
               <img className=" hover:scale-110 ease-in duration-700 hover:opacity-35 mt-4" src={F1} alt="/"/>
-                <a href="/">
+                <a href="https://github.com/Samysr17/F1_analysis">
                 <Fade left><button className=" w-full border-2 rounded-md shadow-xl items-center shadow-yellow-400 flex justify-center border-white text-white mt-4 hover:bg-yellow-400 ease-in duration-700 hover:border-yellow-400 px-6 py-3 ">Visit Repository</button></Fade>
                 </a>
                 </Flip>

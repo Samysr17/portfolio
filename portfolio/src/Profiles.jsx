@@ -15,7 +15,7 @@ const Profiles = () => {
       <Fade left>
         <div className="flex flex-col items-center justify-center">
           <img className=" hover:scale-110 ease-in duration-700 h-[90px]  hover:opacity-35 mt-4" src={leetcode} alt="/"/>
-            <a href="/">
+            <a href="https://leetcode.com/SAMRAT3112/">
             <button className=" w-full border-2 rounded-md shadow-xl items-center shadow-yellow-400 flex justify-center border-white text-white mt-4 hover:bg-yellow-400 ease-in duration-700 hover:border-yellow-400 px-6 py-3 ">Visit Profile</button>
             </a>
         </div>
@@ -23,7 +23,7 @@ const Profiles = () => {
         <Fade right>
         <div className="flex flex-col items-center justify-center">
           <img className=" hover:scale-110 ease-in duration-700 hover:opacity-35   mt-[20px] h-[60px]" src={gfg} alt="/"/>
-            <a href="/">
+            <a href="https://auth.geeksforgeeks.org/user/samysr17">
             <button className=" w-full border-2  mt-10 rounded-md shadow-xl items-center shadow-green-600 flex justify-center border-white text-white  hover:bg-green-600 ease-in duration-700 hover:border-green-600 px-6 py-3 ">Visit Profile</button>
             </a>
         </div>
@@ -31,7 +31,7 @@ const Profiles = () => {
         <Fade right>
         <div className="flex flex-col items-center justify-center">
         <FaGithub className='text-white mt-4  ' size={90}/>
-            <a href="/">
+            <a href="https://github.com/Samysr17">
             <button className=" w-full border-2 rounded-md shadow-xl items-center shadow-black flex justify-center border-white text-white mt-4 hover:bg-black ease-in duration-700 hover:border-black px-6 py-3 ">Visit Profile</button>
             </a>
         </div>

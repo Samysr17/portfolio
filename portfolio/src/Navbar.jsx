@@ -3,6 +3,7 @@ import { FaLinkedin,FaGithub,FaTwitter,FaInstagram} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import {Link} from 'react-scroll'
+import Samrat_Resume from './assets/Samrat_Resume.pdf'
 
 const Navbar = () => {
 
@@ -52,7 +53,7 @@ const Navbar = () => {
             </a>
           </li>
           <li className="text-white w-[160px] h-[40px]  bg-green-500  rounded-xl ml-[-110px] hover:ml-[10px] ease-in duration-700">
-          <a className="flex w-full justify-between items-center" href="/">
+          <a className="flex w-full justify-between items-center" href={Samrat_Resume} download={Samrat_Resume.pdf}>
             <div className="ml-4 mt-1 items-center">Resume</div>
             <BsFillPersonLinesFill className='items-center mt-1 mr-2' size={30}/>
             </a>

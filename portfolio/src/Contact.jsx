@@ -4,6 +4,7 @@ import LightSpeed from 'react-reveal/LightSpeed';
 import { FaLinkedin,FaGithub,FaTwitter,FaInstagram} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
+import Samrat_Resume from './assets/Samrat_Resume.pdf'
 
 const Contact = () => {
   return (
@@ -30,7 +31,7 @@ const Contact = () => {
           <div><a href="https://github.com/Samysr17"><FaGithub size={30}/></a></div>
           <div><a href="https://twitter.com/SamratR02594473"><FaTwitter size={30}/></a></div>
           <div><a href="https://mail.google.com/"><HiOutlineMail size={30}/></a></div>
-          <div><a href="/"><BsFillPersonLinesFill size={30}/></a></div>
+          <div><a href={Samrat_Resume} download={Samrat_Resume.pdf}><BsFillPersonLinesFill size={30}/></a></div>
           </LightSpeed>
         </div>
         </form>

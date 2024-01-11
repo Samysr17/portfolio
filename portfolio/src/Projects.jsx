@@ -49,7 +49,7 @@ const Projects = () => {
             <Flip>
             <p className="flex text-xl hover:text-purple-700 ease-in duration-700  justify-center font-bold items-center"><a href="https://homeo-react.netlify.app/">Homeo</a></p>
               <img className=" hover:scale-110 ease-in duration-700 hover:opacity-35 mt-4" src={homeo} alt="/"/>
-                <a href="https://github.com/sahilhedau49/homeo-react">
+                <a href="https://github.com/Samysr17/homeo">
                 <Fade left><button className=" w-full border-2 rounded-md shadow-xl items-center shadow-purple-700 flex justify-center border-white text-white mt-4 hover:bg-purple-700 hover:border-purple-700 ease-in duration-700 hover:purple-700 px-6 py-3 ">Visit Repository</button></Fade>
                 </a>
                 </Flip>

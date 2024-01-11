@@ -12,7 +12,7 @@ function App() {
     setloading(true);
     setTimeout(()=>{
      setloading(false);
-    },9000)
+    },2000)
   },[])
   return (
   <>

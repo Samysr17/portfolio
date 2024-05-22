@@ -4,6 +4,7 @@ import tesla from './assets/tesla.png'
 import sportsgram from './assets/sportsgram.png'
 import homeo from './assets/homeo.png'
 import F1 from './assets/F1.png'
+import image from './assets/image_res.png'
 import Flip from 'react-reveal/Flip';
 import Fade from 'react-reveal/Fade';
 const Projects = () => {
@@ -26,9 +27,9 @@ const Projects = () => {
             
             <div className="">
             <Flip>
-            <p className="flex text-xl hover:text-black ease-in duration-700  justify-center font-bold items-center">Tesla E-commerce</p>
-              <img className=" hover:scale-110 ease-in duration-700 hover:opacity-35 mt-4" src={tesla} alt="/"/>
-                <a href="https://github.com/Samysr17/Tesla_full_stack_clone">
+            <a href='https://image-restoration.netlify.app/'><p className="flex text-xl hover:text-black ease-in duration-700  justify-center font-bold items-center">Image Restoration</p></a>
+              <img className=" hover:scale-110 ease-in duration-700 hover:opacity-35 mt-4" src={image} alt="/"/>
+                <a href="https://github.com/Samysr17/Image-Restoration">
                 <Fade left><button className=" w-full border-2 rounded-md shadow-xl items-center shadow-black flex justify-center border-white text-white mt-4 hover:bg-black ease-in duration-700 hover:border-black px-6 py-3 ">Visit Repository</button></Fade>
                 </a>
 
